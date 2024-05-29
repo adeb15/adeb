@@ -1,0 +1,14 @@
+style
+head {background-color: #B0EBB4;}
+body {
+    background-color: #B0EBB4; /* Light gray background color */
+}
+
+h1 {
+    color: #FDFFC2; /* Dark gray color for h1 */
+}
+
+p {
+    color: #FF5F00; /* Medium gray color for p */
+}
+ul {color: #E84545;}
