@@ -1,0 +1,260 @@
+<pre>
+    <code>
+        // Your code goes here
+        <head>
+            <link rel="stylesheet" href="index.css">
+            
+                <meta charset="UTF-8">
+            
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <title>وظيفة علوم اديب جروس 31/5/2024</title>
+                <style>
+             
+                    body {
+                        font-family: Arial, sans-serif;
+                        text-align: center;
+                    }
+                    #game-container {
+                        margin-top: 50px;
+                    }
+                    .button {
+            
+                        padding: 10px 20px;
+                        font-size: 18px;
+                        background-color: #4CAF50;
+                        color: white;
+                        border: none;
+                        border-radius: 5px;
+                        cursor: pointer;
+                        margin: 10px;
+                    }
+                    #instructions {
+                        font-size: 20px;
+                        margin-bottom: 20px;
+                    }
+                </style>
+                
+            </head>
+            <body>
+                <h1>اكتشف العين!</h1>
+                <p id="instructions">انقر على الزر لمعرفة كيفية عمل العين.</p>
+                <div id="game-container">
+                    <button class="button" onclick="showStep(1)">Start Game</button>
+                </div>
+            
+                <p>مزيد من المعلومات حول العين: <a href="https://en.wikipedia.org/wiki/Human_eye" target="_blank">ويكيبيديا</a></p>
+            
+                <script>
+                    function showStep(step) {
+                        document.getElementById("instructions").innerText = "";
+                        var gameContainer = document.getElementById("game-container");
+                        gameContainer.innerHTML = "";
+            
+                        if (step === 1) {
+                            gameContainer.innerHTML = "<p>تعمل العين عن طريق التقاط الضوء وإرسال الإشارات إلى الدماغ.</p><button class='button' onclick='showStep(2)'>Next Step</button>";
+                        } else if (step === 2) {
+                            gameContainer.innerHTML = "<p>تقوم القرنية والعدسة بتركيز الضوء على شبكية العين في الجزء الخلفي من العين.</p><button class='button' onclick='showStep(3)'>Next Step</button>";
+                        } else if (step === 3) {
+                            gameContainer.innerHTML = "<p>تحتوي شبكية العين على خلايا مستقبلة للضوء تسمى العصي والمخاريط التي تحول الضوء إلى إشارات كهربائية.</p><button class='button' onclick='showStep(4)'>Next Step</button>";
+                        } else if (step === 4) {
+                            gameContainer.innerHTML = "<p>ثم يتم إرسال هذه الإشارات إلى الدماغ عبر العصب البصري، حيث يتم تفسيرها على شكل صور.</p><button class='button' onclick='showStep(5)'>Next Step</button>";
+                        } else if (step === 5) {
+                            gameContainer.innerHTML = "<p>مذهل، لقد أكملت اللعبة! الآن أنت تعرف كيف تعمل العين.</p>";
+                        }
+                    }
+                </script>
+                <p>
+                    ---
+                    
+                ، دعني أخبرك كيف تعمل العين. إنها حقًا عضو مدهش في جسم الإنسان، تتيح لنا فرصة الرؤية واكتشاف العالم من حولنا بألوانه وتفاصيله الرائعة.
+                    
+                    عندما تنظر إلى شيء، يبدأ العمل. يدخل الضوء من خلال القرنية، النافذة الشفافة للعين، ثم يمر عبر العدسة، التي تركزه وتوجهه نحو الجزء الخلفي من العين، الشبكية.
+                    
+                     - العصي والمخاريط. هذه الخلايا الحساسة تحول الضوء إلى إشارات عصبية. يرسل العصب البصري هذه الإشارات إلى الدماغ، الذي يترجمها إلى صور مفهومة.
+                    
+                    أخيرًا، تظهر الصورة أمام عينيك. ترى العالم من حولك بألوانه الزاهية وتفاصيله الدقيقة.
+                    
+                    هكذا، تعمل العين كساحرة حقيقية، تحول الضوء إلى رؤية، تمنحنا قدرة الاستكشاف والفهم.</p>
+                    <p>العين هي إحدى أعجوبة الهندسة البيولوجية، فهي عضو معقد يتيح الرؤية من خلال عملية معقدة تنطوي على العديد من الهياكل والآليات. وفي مقدمة هذا النظام الحسي تقع القرنية، وهي نسيج شفاف على شكل قبة يعمل كحاجز وقائي ويبدأ عملية ثني أشعة الضوء الواردة. عندما يمر الضوء عبر القرنية، فإنه يدخل العين من خلال حدقة العين، وهي الفتحة القابلة للتعديل التي تتحكم فيها القزحية، والتي تنظم كمية الضوء التي تدخل العين حسب الظروف المحيطة. خلف حدقة العين تقع العدسة البلورية، وهي بنية مرنة تعمل على ضبط تركيز الضوء الوارد على شبكية العين، وهي طبقة حساسة للضوء تبطن الجزء الخلفي من العين. تحتوي شبكية العين على خلايا مستقبلة للضوء متخصصة تعرف باسم العصي والمخاريط، والتي تحول الطاقة الضوئية إلى إشارات كهربائية تنتقل بعد ذلك عبر العصب البصري إلى الدماغ لتفسيرها. العصي مسؤولة عن الرؤية في الإضاءة المنخفضة واكتشاف الحركة، في حين أن المخاريط ضرورية لرؤية الألوان وحدة البصر. تحتوي المنطقة الوسطى من شبكية العين، والمعروفة باسم البقعة، على تركيز عالٍ من المخاريط وهي مسؤولة عن الرؤية المركزية التفصيلية. تحيط بالبقعة الشبكية المحيطية، والتي توفر الرؤية المحيطية وتساهم في الوعي المكاني. توجد داخل شبكية العين طبقات من الخلايا المتخصصة، بما في ذلك الخلايا ثنائية القطب والخلايا العقدية، التي تعالج المعلومات البصرية وتنقلها إلى الدماغ. ويحمل العصب البصري هذه الإشارات من شبكية العين إلى مراكز المعالجة البصرية في الدماغ، مثل القشرة البصرية الأولية، حيث يتم فك تشفير الإشارات وتجميعها في تصورات بصرية متماسكة. ومن اللافت للنظر أن هذه العملية برمتها تحدث في أجزاء من الثانية، مما يسمح لنا بإدراك العالم من حولنا بوضوح وعمق مذهلين. ومع ذلك، وعلى الرغم من تعقيدها المذهل، فإن العين ليست محصنة ضد العيوب والاضطرابات، بدءًا من الأخطاء الانكسارية الشائعة مثل قصر النظر وبعد النظر إلى الحالات الأكثر خطورة مثل الجلوكوما والضمور البقعي. إن فهم الأعمال المعقدة للعين لا يعزز تقديرنا لعجائب علم الأحياء فحسب، بل يساعد أيضًا في تطوير العلاجات والتقنيات التي تهدف إلى الحفاظ على الرؤية واستعادتها للمتضررين من الإعاقات البصرية. وهكذا تقف العين شاهداً على جمال تصميم الطبيعة والسعي المستمر للمعرفة في مجال علوم الرؤية.</p>
+            
+                <img src="https://modo3.com/thumbs/fit630x300/73668/1591153462/%D8%A8%D8%AD%D8%AB_%D8%AD%D9%88%D9%84_%D8%A7%D9%84%D8%B9%D9%8A%D9%86.jpg" alt="">
+            
+            
+                
+                <!DOCTYPE html>
+            <html lang="ar">
+            <head>
+              <meta charset="UTF-8">
+              <meta name="viewport" content="width=device-width, initial-scale=1.0">
+              <title>رحلة العين: استكشاف أسرار البصر</title>
+            </head>
+            <body>
+              <h1>رحلة العين: استكشاف أسرار البصر</h1>
+              <p>مرحبًا بكم في رحلتنا الممتعة لاستكشاف أسرار البصر!</p>
+              <p>هذه اللعبة ستأخذكم في رحلة شيقة لاستكشاف كيفية عمل العين وكيفية فهمها.</p>
+              <p>هل أنتم مستعدون؟ ابدأوا الآن!</p>
+              <button onclick="startGame()">ابدأ اللعبة</button>
+            
+              <script>
+                function startGame() {
+                  alert('مرحبًا بكم في رحلة العين! ستكون اللعبة تحتوي على أسئلة وتحديات لفهم كيفية عمل العين.');
+                  alert('سؤال رقم 1: ما هو الجزء المسؤول عن تركيز الضوء في العين؟');
+                  var answer1 = prompt('أدخل إجابتك:');
+                  if (answer1.toLowerCase() === 'العدسة') {
+                    alert('إجابة صحيحة!');
+                  } else {
+                    alert('إجابة غير صحيحة! الجواب الصحيح هو: العدسة');
+                  }
+                  alert('سؤال رقم 2: ما هو الجزء الذي يحتوي على الخلايا الضوئية التي تحول الضوء إلى إشارات عصبية؟');
+                  var answer2 = prompt('أدخل إجابتك:');
+                  if (answer2.toLowerCase() === 'الشبكية') {
+                    alert('إجابة صحيحة!');
+                  } else {
+                    alert('إجابة غير صحيحة! الجواب الصحيح هو: الشبكية');
+                  }
+                  alert('شكرًا لمشاركتكم في اللعبة! نتمنى لكم وقتًا ممتعًا في استكشاف أسرار البصر.');
+                }
+              </script>
+            </body>
+            </html> 
+            <ul>
+            <p></p>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            </ul>
+            <!DOCTYPE html>
+            <html lang="ar">
+            <head>
+              <meta charset="UTF-8">
+              <meta name="viewport" content="width=device-width, initial-scale=1.0">
+              <title>لعبة كيف تعمل العين</title>
+              <style>
+                body {
+                  font-family: Arial, sans-serif;
+                  text-align: center;
+                }
+                #question {
+                  font-size: 24px;
+                  margin-bottom: 20px;
+                }
+                #choices {
+                  margin-top: 20px;
+                }
+                button {
+                  font-size: 18px;
+                  padding: 10px 20px;
+                  margin: 5px;
+                  cursor: pointer;
+                }
+              </style>
+            </head>
+            <body>
+              <h1>لعبة كيف تعمل العين</h1>
+              <div id="question"></div>
+              <div id="choices">
+                <button onclick="checkAnswer('العدسة')">العدسة</button>
+                <button onclick="checkAnswer('القزحية')">القزحية</button>
+                <button onclick="checkAnswer('الشبكية')">الشبكية</button>
+                <button onclick="checkAnswer('الحدقة')">الحدقة</button>
+              </div>
+              <p id="result"></p>
+            
+              <script>
+                const questions = [
+                  {
+                    question: "ما هو الجزء الذي يتحكم في تركيز الضوء داخل العين؟",
+                    correctAnswer: "العدسة"
+                  },
+                  {
+                    question: "ما هو الجزء الذي يتحكم في كمية الضوء الذي يدخل العين؟",
+                    correctAnswer: "القزحية"
+                  },
+                  {
+                    question: "ما هو الجزء الذي يحول الضوء إلى إشارات عصبية داخل العين؟",
+                    correctAnswer: "الشبكية"
+                  }
+                ];
+                let currentQuestionIndex = 0;
+                const questionElement = document.getElementById('question');
+            
+                function displayQuestion() {
+                  questionElement.textContent = questions[currentQuestionIndex].question;
+                }
+            
+                function checkAnswer(answer) {
+                  const correctAnswer = questions[currentQuestionIndex].correctAnswer;
+                  if (answer === correctAnswer) {
+                    document.getElementById('result').innerText = 'صحيح!';
+                  } else {
+                    document.getElementById('result').innerText = `خطأ! الجواب الصحيح هو: ${correctAnswer}.`;
+                  }
+                  currentQuestionIndex++;
+                  if (currentQuestionIndex < questions.length) {
+                    displayQuestion();
+                  } else {
+                    questionElement.textContent = "انتهت الأسئلة.";
+                    document.getElementById('choices').style.display = 'none';
+                  }
+                }
+            
+                displayQuestion();
+              </script>
+            </body>
+            </html>
+            <!DOCTYPE html>
+            <html lang="ar">
+            <head>
+              <meta charset="UTF-8">
+              <meta name="viewport" content="width=device-width, initial-scale=1.0">
+              <title>لعبة العين</title>
+              <style>
+                body {
+                  font-family: Arial, sans-serif;
+                  text-align: center;
+                }
+                h1 {
+                  font-size: 24px;
+                  margin-bottom: 20px;
+                }
+                button {
+                  font-size: 18px;
+                  padding: 10px 20px;
+                  margin: 5px;
+                  cursor: pointer;
+                }
+              </style>
+            </head>
+            <body>
+                <!DOCTYPE html>
+                <html lang="ar">
+                <head>
+                  <meta charset="UTF-8">
+                  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                  <title>لعبة العين</title>
+                  <style>
+                    body {
+                      font-family: Arial, sans-serif;
+                      text-align: center;
+                    }
+                    h1 {
+                      font-size: 24px;
+                      margin-bottom: 20px;
+                    }
+                    button {
+                      font-size: 18px;
+                      padding: 10px 20px;
+                      margin: 5px;
+                      cursor: pointer;
+                    }
+                  </style>
+                </head>
+                <body>
+            
+            </body>
+            </html>
+    </code>
+</pre>
